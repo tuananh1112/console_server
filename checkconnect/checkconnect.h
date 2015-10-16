@@ -1,9 +1,9 @@
 #ifndef CHECKCONNECT
 #define CHECKCONNECT
 
-void handle_config_line(char *inbuf, int lineno);
+void handle_config_line (const char *inbuf, int lineno);
 
-int readconfig(char *filename);
+int readconfig (const char *filename);
 
-int checkconnect(char *devname);
+int checkconnect (const char *devname);
 #endif

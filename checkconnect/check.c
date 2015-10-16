@@ -10,7 +10,7 @@
 #define BUF_LEN 1
 
 int 
-checkconnect (char *devname)
+checkconnect (const char *devname)
 {
     int fd = 0;
     struct timeval tv;
